@@ -2,43 +2,40 @@
 
 nav{
     background-color: #28A745;
+ 
+    
 }
+
+body {
+    padding-top:40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+section h5{
+    font-weight: 500;
+}
+
+.card-title{
+    font-weight: 300;
+}
+
+
 
 #formsec{
     background-color: #28A745;
 }
 
-
-/* Media Queries */
-
-
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) {
-
-   
-   
-
- }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    
+#inicio{
+    margin-top: 25vw;
 }
 
-@media (max-width: 767px) {
-    
+@media (min-width: 768px) {
+    nav{
+        font-size: 2vw;
+    }
+
+    #inicio{
+        margin-top: 15vw;
+    }
 }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-   
-
-   
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-   
-
- }
